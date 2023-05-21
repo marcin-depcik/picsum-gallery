@@ -1,5 +1,11 @@
 import { createApp } from 'vue'
-import './style.css'
 import App from './App.vue'
+import vuetify from './plugins/vuetify'
+import { loadFonts } from './plugins/webfontloader'
+import { galleryStore } from './store/galleryStore'
 
-createApp(App).mount('#app')
+import './styles/global.scss'
+
+loadFonts()
+
+createApp(App).use(vuetify).use(galleryStore).mount('#app')
