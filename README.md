@@ -1,7 +1,53 @@
-# Vue 3 + Vite
+# [Live preview - Picsum Gallery](https://picsum-gallery.netlify.app/)
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+## Built with
 
-## Recommended IDE Setup
+- `Node v18.15.0`
+- `npm v9.5.0`
+- Vue 3
+- Vuex
+- Vuetify 3
+- Composition API
+- SCSS
+- External API - [Picsum Photos](https://picsum.photos)
 
-- [VS Code](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+## Author
+
+- LinkedIn - [Marcin Depcik](https://linkedin.com/in/marcindepcik)
+- GitHub - [marcin-depcik](https://github.com/marcin-depcik)
+
+## Getting Started with npm
+
+In the project directory, you can run:
+
+### `npm install`
+
+Runs local installation of packages from package.json
+
+### `npm run dev`
+
+Runs the app in the development mode.\
+Open [http://localhost:5173/](http://localhost:5173/) to view it in your browser.
+
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
+
+### `npm run build`
+
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
+
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
+
+For more information about [running build](https://vitejs.dev/guide/cli.html#build)
+
+### `npm run lint`
+
+Runs eslint to check any syntax warnings and errors.
+
+### `npm run preview`
+
+Locally preview production build.
+
+For more information about [running preview](https://vitejs.dev/guide/cli.html#vite-preview)
